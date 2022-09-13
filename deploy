@@ -1,0 +1,11 @@
+docker network create --subnet=192.168.8.0/24 rfid_net
+docker run -dit --name app \
+--network rfid_net \
+--log-driver json-file \
+--log-opt max-size=10m \
+--restart always \
+-p 2201:22 \
+-p 8001:80 \
+-v /root/jogging_timer/app:/var/www/html \
+-w /var/www/html \
+service_container bash

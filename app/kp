@@ -1,0 +1,5 @@
+#!/bin/bash
+python3 stop.py
+pkill -f /app/pm
+pkill -f service.py
+

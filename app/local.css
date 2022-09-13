@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Play|Staatliches&display=swap');
+.vertical-center{
+	width: 320px;
+	height: 250px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+}
+.slategrey {background-color:lightslategrey!important;}
+.lighten {filter: brightness(1.1) hue-rotate(-25deg);padding:4.5px 15px}
+.hidden{display:none}
+.shown{display:inline}
+.nav{
+	font-family: 'Play', sans-serif;
+    position: absolute;
+    z-index: 10;
+    padding: 0;	
+	left:-220px;
+	transition: left 0.3s;
+}
+.text_white{color:white}
+.text_black{color:black}
+.label_text{padding:8px 5px!important}
+.grp_title{font-size:1em!important;font-weight:bold!important}
+.shadow1{
+	box-shadow:2px 2px 5px #1C1C1C;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 0px;
+	padding:0;
+	background-color:white;
+}
+.window-header{
+	border-radius: 10px 10px 0 0; 
+}
+.header-text{
+	display:inline-block;
+	font-family: 'Play', sans-serif;
+	font-size:1.3em;
+	font-weight:bolder;	
+	margin-left:20px;
+}
+.header-icon{display:inline-block;}
+.fr{float:right;}
+.fl{float:left;}
+.default-card{
+	box-shadow:2px 2px 5px #1C1C1C;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 0px;
+	padding:0;
+	height:70px;
+	background-color:floralwhite;
+	margin-top:15px;
+}
+.menu-card{
+	height:15vh;
+	max-height:150px;
+	min-height:100px;	
+}
+.menu-icon-img{
+    margin: 10px;
+    height: 70px;
+}
+.card-icon-img{
+	margin:10px;
+	height:50px;
+	width:50px;
+}
+.card-icon{
+	width:20%;
+	min-width:100px;
+}
+.card-action{
+	font-size:30px;color:lightslategrey;
+	text-align:right;
+	margin-right: 10px;
+}
+.card-text{
+	width:75%;
+	font-family: 'Staatliches', cursive;
+	font-size:1.8em;
+	font-weight:lighter;
+}
+.menu-text{
+	width:75%;
+	font-family:'Staatliches',cursive;
+	font-size:3em;
+	font-weight:lighter;
+	text-align:center;
+}
+.popup{
+	padding:20px 10px 20px 0px;
+	line-height:22px;
+	background-color:lightslategrey;
+	color:#fff;
+	font-family: 'Abel', sans-serif;
+	font-weight:300;	
+	font-size:1.2em;
+}
