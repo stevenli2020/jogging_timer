@@ -1,10 +1,14 @@
 <?php
+setcookie("TOKEN","",-1,"/");
 if($_POST['pwd']==""){
 	$MSG="";
 }else{
 	$USER = $_POST['user'];
 	$PWD = $_POST['pwd'];
 	if($PWD === "8e82f44873f4b68b5001b323ab39953155f215a0"){
+		$TOKEN=SHA1(rand(10000000,99999999));
+		setcookie("TOKEN",$TOKEN,time()+(86400*7), "/");
+		file_put_contents("token",$TOKEN);		
 		ob_start();
 		header('Location: main.php');
 		ob_end_flush();

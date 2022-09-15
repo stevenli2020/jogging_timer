@@ -5,7 +5,7 @@ docker run -dit --name app \
 --log-opt max-size=10m \
 --restart always \
 -p 2201:22 \
--p 8001:80 \
+-p 80:80 \
 -v /root/jogging_timer/app:/var/www/html \
 -w /var/www/html \
-service_container bash
+service_container

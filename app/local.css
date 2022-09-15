@@ -9,6 +9,16 @@
 	right: 0;
 	margin: auto;	
 }
+.main_window{
+	width: 90vw;
+	max-height: 90vh;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}	
 .slategrey {background-color:lightslategrey!important;}
 .lighten {filter: brightness(1.1) hue-rotate(-25deg);padding:4.5px 15px}
 .hidden{display:none}
